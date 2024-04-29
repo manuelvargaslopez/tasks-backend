@@ -41,6 +41,7 @@ public class TaskControllerTest {
 
         Task todo = new Task();
         todo.setTask(" descricao");
+
         try {
             controller.save(todo);
             Assert.fail("Não deveria chegar a este ponto");
